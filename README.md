@@ -3,13 +3,13 @@
 # Introduction
 
 Perl6 grammars might be a natural way of parsing smartctl data. This
-repo contains some of my experiments towards finding an elegant
-solution to this problem.
+repo contains some attempts towards finding an elegant solution to
+this problem.
 
 # Input 
 
 Data returned by smartctl is of the form
-
+```
 smartctl 6.3 2014-07-26 r3976 [i386-pc-solaris2.11] (local build)
 Copyright (C) 2002-14, Bruce Allen, Christian Franke, www.smartmontools.org
 
@@ -59,6 +59,8 @@ verify:     5366       15         0      5381       1256        780.751         
 Non-medium error count:        0
 
 No self-tests have been logged
+```
+
 
 
 
