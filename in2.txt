@@ -1,0 +1,74 @@
+smartctl 6.3 2014-07-26 r3976 [i386-pc-solaris2.11] (local build)
+Copyright (C) 2002-14, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               HGST
+Product:              HUS724040ALS640
+Revision:             A1C4
+Compliance:           SPC-4
+User Capacity:        4,000,787,030,016 bytes [4.00 TB]
+Logical block size:   512 bytes
+LU is resource provisioned, LBPRZ=0
+Rotation Rate:        7200 rpm
+Form Factor:          3.5 inches
+Logical Unit id:      0x5000cca05c45c318
+Serial number:        PCH7BBDX
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Wed Mar  8 23:52:23 2017 EST
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Current Drive Temperature:     27 C
+Drive Trip Temperature:        85 C
+
+Manufactured in week 37 of year 2014
+Specified cycle count over device lifetime:  50000
+Accumulated start-stop cycles:  33
+Specified load-unload count over device lifetime:  600000
+Accumulated load-unload cycles:  672
+Elements in grown defect list: 0
+
+Vendor (Seagate) cache information
+  Blocks sent to initiator = 2515131405697024
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:      32732        0         0     32732     979384      73742.083           0
+write:         0        0         0         0      42390      13477.675           0
+verify:    30527        1         0     30528       3557       1217.153           0
+
+Non-medium error count:        0
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Background long   Completed                   -    4924                 - [-   -    -]
+# 2  Background long   Completed                   -    4756                 - [-   -    -]
+# 3  Background long   Completed                   -    4588                 - [-   -    -]
+# 4  Background long   Completed                   -    4420                 - [-   -    -]
+# 5  Background long   Completed                   -    4252                 - [-   -    -]
+# 6  Background long   Completed                   -    4084                 - [-   -    -]
+# 7  Background long   Completed                   -    3916                 - [-   -    -]
+# 8  Background long   Completed                   -    3748                 - [-   -    -]
+# 9  Background long   Completed                   -    3580                 - [-   -    -]
+#10  Background long   Completed                   -    3412                 - [-   -    -]
+#11  Background long   Completed                   -    3244                 - [-   -    -]
+#12  Background long   Completed                   -    3076                 - [-   -    -]
+#13  Background long   Completed                   -    2908                 - [-   -    -]
+#14  Background long   Completed                   -    2740                 - [-   -    -]
+#15  Background long   Completed                   -    2572                 - [-   -    -]
+#16  Background long   Completed                   -    2404                 - [-   -    -]
+#17  Background long   Completed                   -    2236                 - [-   -    -]
+#18  Background long   Completed                   -    2068                 - [-   -    -]
+#19  Background long   Completed                   -    1900                 - [-   -    -]
+#20  Background long   Completed                   -    1732                 - [-   -    -]
+
+Long (extended) Self Test duration: 37038 seconds [617.3 minutes]
+

@@ -1,0 +1,45 @@
+smartctl 6.3 2014-07-26 r3976 [i386-pc-solaris2.11] (local build)
+Copyright (C) 2002-14, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               WD
+Product:              WD4001FYYG-01SL3
+Revision:             VR08
+Compliance:           SPC-4
+User Capacity:        4,000,787,030,016 bytes [4.00 TB]
+Logical block size:   512 bytes
+Rotation Rate:        7200 rpm
+Form Factor:          3.5 inches
+Logical Unit id:      0x50000c0f010b8f44
+Serial number:        WMC1F0F95YYF
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Wed Mar  8 23:52:38 2017 EST
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Current Drive Temperature:     28 C
+Drive Trip Temperature:        40 C
+
+Manufactured in week 31 of year 2016
+Specified cycle count over device lifetime:  1048576
+Accumulated start-stop cycles:  3
+Specified load-unload count over device lifetime:  1114112
+Accumulated load-unload cycles:  1
+Elements in grown defect list: 0
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:      17193        0         0     17193          0      18881.861           0
+write:    196488        0         0    196488          0       7625.187           0
+
+Non-medium error count:        6
+
+No self-tests have been logged
+
